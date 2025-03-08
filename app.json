@@ -2,6 +2,7 @@
   "expo": {
     "name": "mesh_chat",
     "slug": "mesh_chat",
+    "scheme":"mesh_chat",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +23,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ]
   }
 }
